@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(244, 182, 68);
+}
+#header #icons{
+    display: flex;
+}
+#header #icons div{
+    padding: 15px 20px 15px 20px;
+}
+#header #icons div a{
+     color: black;
+     font-size: 17px;
+}
+#header #iconpara{
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+}
+
+/* =============== navbar ==================== */
+#navbar{
+    display: flex;
+}
+#navbar ul{
+    list-style-type: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#navbar #navimg{
+    margin-left: 170px;
+    padding: 15px 20px 15px 0px;
+}
+#navbar #midnav{
+    display: flex;
+}
+#navbar #midnav li{
+    padding: 45px 25px 25px 30px;
+}
+#navbar #navlogin{
+    padding: 45px 25px 25px 30px;
+}
+#navbar #navlogin a{
+        background-color: rgb(244, 182, 68);
+        padding: 10px 35px 10px 35px;
+        border-radius: 5px;
+}
+#navbar #midnav li a:hover{
+    color: rgb(244, 182, 68);
+}
+#navbar #navlogin a:hover{
+    color: white;
+}
+
+/* ================== title =================== */
+#blogtitle{
+    width: 100%;
+    height: 210px;
+    background-color: rgb(244, 182, 68);
+}
+#blogtitle div{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 70px 0px 0px 670px;
+}
+
+/* ============================================ */
+#blogsubtitle div{
+    padding: 90px 0px 60px 400px;
+    font-size: 18px;
+}
+
+/* ================================ blog content ========================== */
+
+#blogcontent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px 160px 80px 170px;
+}
+#blogcontent .blogsections{
+    box-shadow: 0px 0px 20px silver;
+    margin: 0px 16px 32px 16px;
+}
+#blogcontent .blogsections .blogsectioncontent{
+    padding: 15px 0px 10px 18px;
+}
+#blogcontent .blogsections .blogsectioncontent b{
+    font-size: 20px;
+}
+#blogcontent .blogsections .blogsectioncontent h5{
+    color: red;
+    margin: 10px 0px 10px 0px;
+}
+#blogcontent .blogsections .blogsectioncontent p{
+    line-height: 25px;
+}
+
+/* ======================== contact ======================== */
+#contact{
+    background-color: black;
+}
+#contact #contacticons{
+    display: flex;
+    justify-content: center;
+}
+#contact #contacticons div{
+    padding: 15px 25px 15px 25px;
+    margin-top: 70px;
+}
+#contact #contacticons div a{
+     color: white;
+     font-size: 18px;
+}
+#contact #contactinfo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0px 130px 60px 130px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectiontitle{
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p a:hover{
+    color: rgb(255, 194, 33);
+}
+#contact #footer{
+    background-color: rgb(255, 194, 33);
+    padding: 20px 0px 20px 350px; 
+    font-size: 18px;
+}
+#contact #footer span a{
+    text-decoration: none;
+    color: black;
+
+}
+#contact #footer span a:hover{
+    color: white;
+}
+/*# sourceMappingURL=blog.css.map */

@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(244, 182, 68);
+}
+#header #icons{
+    display: flex;
+}
+#header #icons div{
+    padding: 15px 20px 15px 20px;
+}
+#header #icons div a{
+     color: black;
+     font-size: 17px;
+}
+#header #iconpara{
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+}
+
+/* =============== navbar ==================== */
+#navbar{
+    display: flex;
+}
+#navbar ul{
+    list-style-type: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#navbar #navimg{
+    margin-left: 170px;
+    padding: 15px 20px 15px 0px;
+}
+#navbar #midnav{
+    display: flex;
+}
+#navbar #midnav li{
+    padding: 45px 25px 25px 30px;
+}
+#navbar #navlogin{
+    padding: 45px 25px 25px 30px;
+}
+#navbar #navlogin a{
+        background-color: rgb(244, 182, 68);
+        padding: 10px 35px 10px 35px;
+        border-radius: 5px;
+}
+#navbar #midnav li a:hover{
+    color: rgb(244, 182, 68);
+}
+#navbar #navlogin a:hover{
+    color: white;
+}
+/* ================================ title ========================== */
+#abouttitle{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(244, 182, 68);
+}
+#abouttitle div{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 70px 0px 0px 680px;
+}
+
+/* ================================= main section ============================= */
+
+#aboutmainsection{
+    display: flex;
+    padding: 110px 60px 0px 180px;
+}
+#aboutmainsection #mainsectionimg img{
+    width: 550px;
+}
+#aboutmainsection #mainsectioncontent{
+    margin-left: 30px;
+}
+#aboutmainsection #mainsectioncontent #mainsectiontitle{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#aboutmainsection #mainsectioncontent #mainsectionpara{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/* ================================= why choose us ========================= */
+#chooseus{
+    overflow-x: hidden;
+    padding-bottom: 10px;
+}
+#chooseus #title{
+    margin: 80px 0px 0px 500px;
+}
+#chooseus #title #titlefirst{
+    font-size: 50px;
+    margin-left: 40px;
+}
+#chooseus #title #underline{
+    width: 120px;
+    height: 10px;
+    background-color: black;
+    margin-left: 205px;
+}
+#chooseus #title #titlesecond{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#chooseus #maindiv .blankdiv{
+    width: 180px;
+    background-color: #ffc221;
+}
+#chooseus #maindiv{
+    display: flex;
+}
+#chooseus #maindiv #middiv{
+    box-shadow: 0 0 10px silver;
+    position: relative;
+}
+#chooseus #maindiv #middiv #midcontent{
+    display: flex;
+    padding: 60px 30px 40px 30px;
+}
+#chooseus #maindiv #middiv #midcontent .midcontentdiv{
+    margin: 10px 15px 0px 15px;
+}
+#chooseus #maindiv #middiv #midcontent .midcontentdiv .midcontentimg{
+    margin-left: 20px;
+}
+#chooseus #maindiv #middiv #midcontent .midcontentdiv .midcontentpara{
+line-height: 25px;
+}
+#chooseus #maindiv #middiv #midcontent .midcontenttitle{
+    font-size: 25px;
+    margin: 15px 0px 15px 10px;
+}
+#chooseus #middiv #readmore{
+    margin: 40px 0px 60px 450px;
+}
+#chooseus #middiv #readmore a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 2px solid #ffc221;
+    padding: 15px 40px 15px 40px;
+}
+#chooseus #middiv #readmore a:hover{
+    background-color: #ffc221;
+}
+
+/* ================================== service process =============================== */
+#service{
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+#service #servicetitle{
+    margin: 80px 0px 0px 400px;
+}
+#service #servicetitle #servicetitlefirst{
+    font-size: 50px;
+    margin-left: 90px;
+}
+#service #servicetitle #serviceunderline{
+    width: 120px;
+    height: 10px;
+    background-color: black;
+    margin-left: 270px;
+}
+#service #servicetitle #servicetitlesecond{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#service #servicemaindiv1{
+    display: flex;
+    margin-left: 170px;
+}
+#service #servicemaindiv2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+#service  .servicesections{
+    box-shadow: 0px 0px 15px silver;
+    padding: 25px 40px 25px 40px;
+    margin: 0px 18px 0px 18px;
+}
+#service .servicesections .sectionimg{
+    margin-left: 85px;
+}
+#service .servicesections .sectiontitle1{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 70px;
+}
+#service .servicesections .sectiontitle2{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 30px;
+}
+#service .servicesections .sectiontitle3{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 50px;
+}
+#service .servicesections .sectiontitle4{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 20px;
+}
+#service .servicesections .sectiontitle5{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 40px;
+}
+#service .servicesections .sectiontitle6{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 40px;
+}
+#service .servicesections .sectionpara{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* ======================== contact ======================== */
+#contact{
+    background-color: black;
+}
+#contact #contacticons{
+    display: flex;
+    justify-content: center;
+}
+#contact #contacticons div{
+    padding: 15px 25px 15px 25px;
+    margin-top: 70px;
+}
+#contact #contacticons div a{
+     color: white;
+     font-size: 18px;
+}
+#contact #contactinfo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0px 130px 60px 130px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectiontitle{
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p a:hover{
+    color: rgb(255, 194, 33);
+}
+#contact #footer{
+    background-color: rgb(255, 194, 33);
+    padding: 20px 0px 20px 350px; 
+    font-size: 18px;
+}
+#contact #footer span a{
+    text-decoration: none;
+    color: black;
+
+}
+#contact #footer span a:hover{
+    color: white;
+}
+/*# sourceMappingURL=about.css.map */

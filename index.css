@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffc221;
+}
+#header #icons{
+    display: flex;
+}
+#header #icons div{
+    padding: 15px 20px 15px 20px;
+}
+#header #icons div a{
+     color: black;
+     font-size: 17px;
+}
+#header #iconpara{
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+}
+
+/* =============== navbar ==================== */
+#navbar{
+    display: flex;
+}
+#navbar ul{
+    list-style-type: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#navbar #navimg{
+    margin-left: 170px;
+    padding: 15px 20px 15px 0px;
+}
+#navbar #midnav{
+    display: flex;
+}
+#navbar #midnav li{
+    padding: 45px 25px 25px 30px;
+}
+#navbar #navlogin{
+    padding: 45px 25px 25px 30px;
+}
+#navbar #navlogin a{
+        background-color: #ffc221;
+        padding: 10px 35px 10px 35px;
+        border-radius: 5px;
+}
+#navbar #midnav li a:hover{
+    color: #ffc221;
+}
+#navbar #navlogin a:hover{
+    color: white;
+}
+
+/* ================== hero section ================== */
+#hero{
+    background-image: url("./heroback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hero #herocontent{
+    padding: 50px 0px 0px 220px;
+}
+#hero #herocontent #hero1{
+    font-size: 75px;
+}
+#hero #herocontent #hero2{
+    font-size: 75px;
+    font-weight: bolder;
+    line-height: 70px;
+}
+#hero #herocontent #hero3{
+    font-size: 75px;
+    font-weight: bolder;
+    color: #ffc221;
+}
+#hero #herocontent #hero4{
+    line-height: 25px;
+}
+#hero #herocontent #hero5{
+    margin: 25px 0px 0px 5px;
+    padding-bottom: 30px;
+}
+#hero #herocontent #hero5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: #ffc221;
+    padding: 12px 40px 12px 40px;
+    border-radius: 30px 0px 30px 30px;
+}
+#hero #herocontent #hero5 a:hover{
+    background-color: black;
+}
+#hero #keys{
+    display: flex;
+    padding: 0px 0px 20px 15px;
+}
+#hero #keys div a{
+    font-size: 25px;
+    margin-right: 15px;
+    background-color: white;
+    padding: 12px 20px 12px 20px;
+}
+#hero #keys div a:hover{
+    background-color: #ffc221;
+    color: white;
+}
+/* ================================= why choose us ========================= */
+#chooseus{
+    overflow-x: hidden;
+    padding-bottom: 10px;
+}
+#chooseus #chooseustitle{
+    margin: 80px 0px 0px 500px;
+}
+#chooseus #chooseustitle #chooseustitlefirst{
+    font-size: 50px;
+    margin-left: 40px;
+}
+#chooseus #chooseustitle #chooseusunderline{
+    width: 120px;
+    height: 10px;
+    background-color: black;
+    margin-left: 205px;
+}
+#chooseus #chooseustitle #chooseustitlesecond{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#chooseus #maindiv .blankdiv{
+    width: 180px;
+    background-color: #ffc221;
+}
+#chooseus #maindiv{
+    display: flex;
+}
+#chooseus #maindiv #middiv{
+    box-shadow: 0 0 10px silver;
+    position: relative;
+}
+#chooseus #maindiv #middiv #midcontent{
+    display: flex;
+    padding: 60px 30px 40px 30px;
+}
+#chooseus #maindiv #middiv #midcontent .midcontentdiv{
+    margin: 10px 15px 0px 15px;
+}
+#chooseus #maindiv #middiv #midcontent .midcontentdiv .midcontentimg{
+    margin-left: 20px;
+}
+#chooseus #maindiv #middiv #midcontent .midcontentdiv .midcontentpara{
+line-height: 25px;
+}
+#chooseus #maindiv #middiv #midcontent .midcontenttitle{
+    font-size: 25px;
+    margin: 15px 0px 15px 10px;
+}
+#chooseus #middiv #readmore{
+    margin: 40px 0px 60px 450px;
+}
+#chooseus #middiv #readmore a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 2px solid #ffc221;
+    padding: 15px 40px 15px 40px;
+}
+#chooseus #middiv #readmore a:hover{
+    background-color: #ffc221;
+}
+
+/* ================================== service process =============================== */
+#service{
+    overflow-x: hidden;
+    padding-bottom: 10px;
+}
+#service #servicetitle{
+    margin: 80px 0px 0px 400px;
+}
+#service #servicetitle #servicetitlefirst{
+    font-size: 50px;
+    margin-left: 90px;
+}
+#service #servicetitle #serviceunderline{
+    width: 120px;
+    height: 10px;
+    background-color: black;
+    margin-left: 270px;
+}
+#service #servicetitle #servicetitlesecond{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#service #servicemaindiv1{
+    display: flex;
+    margin-left: 170px;
+}
+#service #servicemaindiv2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+#service  .servicesections{
+    box-shadow: 0px 0px 15px silver;
+    padding: 25px 40px 25px 40px;
+    margin: 0px 18px 0px 18px;
+}
+#service .servicesections .sectionimg{
+    margin-left: 85px;
+}
+#service .servicesections .sectiontitle1{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 70px;
+}
+#service .servicesections .sectiontitle2{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 30px;
+}
+#service .servicesections .sectiontitle3{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 50px;
+}
+#service .servicesections .sectiontitle4{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 20px;
+}
+#service .servicesections .sectiontitle5{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 40px;
+}
+#service .servicesections .sectiontitle6{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0px 20px 40px;
+}
+#service .servicesections .sectionpara{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* =================================== OUR PRODUCTS ======================= */
+ #producttitle{
+    margin: 80px 0px 0px 190px;
+}
+ #producttitle #producttitlefirst{
+    font-size: 50px;
+}
+ #producttitle #productunderline{
+    width: 120px;
+    height: 10px;
+    background-color: black;
+}
+ #producttitle #producttitlesecond{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+#ourproduct{
+    overflow-x: hidden;
+    background-image: url("https://themewagon.github.io/lighten/images/bg.jpg");
+    background-size: cover;
+    box-shadow: 0px 0px 20px silver;
+}
+#ourproduct #productmaindiv{
+    padding: 80px 0px 80px 0px;
+    background-color: rgb(245, 245, 245,0.8);
+}
+#ourproduct #productmaindiv #productmaindiv1{
+    display: flex;
+    margin-left: 170px;
+}
+#ourproduct #productmaindiv #productmaindiv2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+#ourproduct #productmaindiv .maindivsection{
+    background-color: rgb(218, 217, 217);
+    padding: 24px 24px 30px 24px;
+    margin: 0px 15px 0px 15px;
+}
+#ourproduct #productmaindiv .maindivsection:hover{
+   background-color: #ffc221;
+}
+#ourproduct #productmaindiv .maindivtitle{
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#ourproduct #productmaindiv .maindivprice{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+#ourproduct #productmaindiv .maindivprice:hover{
+    color: white;
+}
+/* ============================= client ============================= */
+#client{
+    margin-top: 10px;
+    background-color: rgb(245, 245, 245,0.8);
+    padding: 40px 0px 80px 180px;
+}
+#client #clienttitle{
+    font-size: 50px;
+}
+#client #clientmidcontent{
+    display: flex;
+    margin-top: 60px;
+}
+#client #clientmidcontent #clientnamedate{
+    margin: 40px 0px 0px 50px;
+}
+#client #clientmidcontent #clientmidcontentimg{
+    margin-left: 20px;
+}
+#client #clientmidcontent #clientnamedate #clientname{
+    font-size: 30px;
+    font-style: italic;
+}
+#client #clientmidcontent #clientnamedate #clientdate{
+    font-size: 17px;
+    font-style: italic;
+}
+#client #clientpara{
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* ====================== */
+#getquote{
+    display: flex;
+    background-color: rgb(255, 194, 33);
+    margin: 100px 170px 0px 170px;
+    padding: 50px 30px 40px 30px;
+}
+#getquote #getquotediv1 #getquotediv1content{
+    display: flex;
+}
+#getquote #getquotediv1 #getquotediv1content #div1firstline{
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+}
+#getquote #getquotediv1 #getquotediv1content #div1img{
+    margin-left: 15px;
+}
+#getquote #getquotediv1 #div1secondline{
+    font-size: 23px;
+    margin-top: 10px;
+}
+#getquote #getquotediv2{
+    margin: 30px 0px 0px 80px;
+}
+#getquote #getquotediv2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: black;
+    padding: 15px 90px 15px 90px;
+    border-radius: 30px;
+}
+/* =================== image only ================== */
+#onlyimage img{
+     width: 1470px;
+     height: 450px;
+}
+/* ======================== contact ======================== */
+#contact{
+    background-color: black;
+    margin-top: -4px;
+}
+#contact #contacticons{
+    display: flex;
+    justify-content: center;
+}
+#contact #contacticons div{
+    padding: 15px 25px 15px 25px;
+    margin-top: 70px;
+}
+#contact #contacticons div a{
+     color: white;
+     font-size: 18px;
+}
+#contact #contactinfo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0px 130px 60px 130px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectiontitle{
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p a:hover{
+    color: rgb(255, 194, 33);
+}
+#contact #footer{
+    background-color: rgb(255, 194, 33);
+    padding: 20px 0px 20px 350px; 
+    font-size: 18px;
+}
+#contact #footer span a{
+    text-decoration: none;
+    color: black;
+
+}
+#contact #footer span a:hover{
+    color: white;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(244, 182, 68);
+}
+#header #icons{
+    display: flex;
+}
+#header #icons div{
+    padding: 15px 20px 15px 20px;
+}
+#header #icons div a{
+     color: black;
+     font-size: 17px;
+}
+#header #iconpara{
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+}
+
+/* =============== navbar ==================== */
+#navbar{
+    display: flex;
+}
+#navbar ul{
+    list-style-type: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#navbar #navimg{
+    margin-left: 170px;
+    padding: 15px 20px 15px 0px;
+}
+#navbar #midnav{
+    display: flex;
+}
+#navbar #midnav li{
+    padding: 45px 25px 25px 30px;
+}
+#navbar #navlogin{
+    padding: 45px 25px 25px 30px;
+}
+#navbar #navlogin a{
+        background-color: rgb(244, 182, 68);
+        padding: 10px 35px 10px 35px;
+        border-radius: 5px;
+}
+#navbar #midnav li a:hover{
+    color: rgb(244, 182, 68);
+}
+#navbar #navlogin a:hover{
+    color: white;
+}
+
+/* ================================ title ========================== */
+#producttitle{
+    width: 100%;
+    height: 210px;
+    background-color: rgb(244, 182, 68);
+}
+#producttitle div{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 70px 0px 0px 600px;
+}
+/* ============================================ */
+#productsubtitle div{
+    padding: 60px 0px 60px 310px;
+    font-size: 22px;
+}
+
+/* =================================== our product ========================== */
+
+#ourproduct{
+    overflow-x: hidden;
+    background-size: cover;
+    background-image: url("https://themewagon.github.io/lighten/images/bg.jpg");
+    box-shadow: 0px 0px 20px silver;
+}
+#ourproduct #productmaindiv{
+    padding: 80px 0px 80px 0px;
+    background-color: rgb(245, 245, 245,0.8);
+}
+#ourproduct #productmaindiv #productmaindiv1{
+    display: flex;
+    margin-left: 170px;
+}
+#ourproduct #productmaindiv #productmaindiv2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+#ourproduct #productmaindiv #productmaindiv3{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+#ourproduct #productmaindiv .maindivsection{
+    background-color: rgb(218, 217, 217);
+    padding: 24px 24px 30px 24px;
+    margin: 0px 15px 0px 15px;
+}
+#ourproduct #productmaindiv .maindivsection:hover{
+   background-color: #ffc221;
+}
+#ourproduct #productmaindiv .maindivtitle{
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#ourproduct #productmaindiv .maindivprice{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+#ourproduct #productmaindiv .maindivprice:hover{
+    color: white;
+}
+
+/* ======================== contact ======================== */
+#contact{
+    background-color: black;
+}
+#contact #contacticons{
+    display: flex;
+    justify-content: center;
+}
+#contact #contacticons div{
+    padding: 15px 25px 15px 25px;
+    margin-top: 70px;
+}
+#contact #contacticons div a{
+     color: white;
+     font-size: 18px;
+}
+#contact #contactinfo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0px 130px 60px 130px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectiontitle{
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+#contact #contactinfo .contactinfosection .contactinfosectioncontent p a:hover{
+    color: rgb(255, 194, 33);
+}
+#contact #footer{
+    background-color: rgb(255, 194, 33);
+    padding: 20px 0px 20px 350px; 
+    font-size: 18px;
+}
+#contact #footer span a{
+    text-decoration: none;
+    color: black;
+
+}
+#contact #footer span a:hover{
+    color: white;
+}
+/*# sourceMappingURL=product.css.map */
